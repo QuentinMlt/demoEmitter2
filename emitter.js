@@ -12,6 +12,9 @@ class FizzBuzz extends EventEmitter {
         else if(payload % 5 == 0 && payload % 3 == 0) {  
             console.log("FizzBuzz");
         }
+        else if(payload % 5 != 0 && payload % 3 != 0) {  
+            console.log("PAS MULTIPLE DE 5 NI DE 3");
+        }
     }
 }
 
