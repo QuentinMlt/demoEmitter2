@@ -6,4 +6,7 @@ test1.on("messageReçu", function(payload){
 })
 
 
-test1.log("Message N°1"); 
+test1.log(6);
+test1.log(5); 
+test1.log(30); 
+test1.log(19);
