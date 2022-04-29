@@ -6,7 +6,7 @@ class FizzBuzz extends EventEmitter {
         if(payload % 3 == 0 && payload % 5 != 0) {  
             console.log("Fizz");
         }
-        if(payload % 5 == 0 && payload % 3 != 0) {  
+        else if(payload % 5 == 0 && payload % 3 != 0) {  
             console.log("Buzz");
         }
     }
